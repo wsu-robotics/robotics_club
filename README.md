@@ -25,22 +25,19 @@ Push/Pull: When you make a commit to a repository the files are stored on your c
 ***Useful Commands***
 
 git clone [url] *This will clone the repo in to the directory that you are currently in.*
-Example:
-cd /home/yourname/programming_stuff/
-git clone https://github.com/wsu_robotics/robotics_club.git  (make sure you put that .git at the end)
-Folder Created: /home/yourname/programming_stuff/robotics_club/
+Example: git clone https://github.com/wsu_robotics/robotics_club.git  (make sure you put that .git at the end)
 
 git pull *Running this in a git directory will update the directory with any changes others have made to the repo*
 
-git add [path] *This will add a file, multiple files, or a whole directory to the currently tracked files. This will 			allow you to commit these files when you are done modifying them.
+git add [path] *This will add a file, multiple files, or a whole directory to the currently tracked files. This will 			allow you to commit these files when you are done modifying them.*
 
-git commit *This will commit (save and track) the changes made to files that have been added. To make this step quicker
-	    use git commit -m "commit message goes here" 
+git commit *This will commit (save and track) the changes made to files that have been added. To make this step quicker*
+	    *use git commit -m "commit message goes here"*
 
-git status *This will show you the files in the repo that have recently been created, deleted, or modified. It will also
-	   tell you which are tracked and untracked. Use git add to track files.*
+git status *This will show you the files in the repo that have recently been created, deleted, or modified. It will*
+	    *also tell you which are tracked and untracked. Use git add to track files.*
 
-git push *This will push your locally made commits to the github.com repository (the "remote" repo).
+git push *This will push your locally made commits to the github.com repository (the "remote" repo).*
 
 git branch *Running this in a git directory will show you ONLY the local (on your computer) branches of the repository. 	    See git_branching.txt on how to create a new branch.*
 
