@@ -44,3 +44,6 @@ git branch *Running this in a git directory will show you ONLY the local (on you
 git branch -a *Running this in a git directory will show you ALL of the branches of a repository*
 
 git checkout [branch] *This will download the files from a branch and switch you to that branch. Don't be alarmed when 				it seems like your files are gone. They aren't. They are just on a different branch which you 				can easily switch back to.* 
+
+
+***Remember:*** You can use --help after any git command to see the manual for the command. They are usually pretty detailed and helpful.

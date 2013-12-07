@@ -1,0 +1,24 @@
+So you want to create a new branch huh? Well here's you do it:
+
+
+>>>git branch -a - No this won't create a new branch. But it does allow you to see all the local and remote (that is on github.com) branches. That was you can see what's already there.
+
+>>>git checkout some_existing_branch - No this wont create a new branch either. But it will switch to another branch. And the files that are currently in that will branch will go into your new branch.
+
+>>>git branch your_branch_name - FINALLY you've got a new branch. Now you've got a place to put your stuff!
+
+
+Ok lets say you add a bunch of stuff and commit it all (git add then git commit). But you don't want to lose all your stuff if your computer craps out. Lets push all this stuff up right?
+
+>>>git push - WHAT THE HECK? It won't let you push anything up. Thats because the branch is created locally NOT remotely. Lets try this:
+
+>>>git push -u origin your_branch_name - Ah there we go. Now it all works. Hopefully. You might get something like a url error. In that case make sure the repo's url is correct. (Use >>>git config --list to check). Or you might be prompted to add your name and email. Do that too.
+
+
+
+Ok your branch is up and running. What if you accidentally called it something wrong? Well got you covered:
+
+>>>git branch -d (or -D but try -d first) - This will delete the branch. Now go back to step 1.
+
+
+***Remember:*** You can use --help after any git command to see the manual for the command. They are usually pretty detailed and helpful.
